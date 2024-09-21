@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f387c197-494d-4ff6-8ab6-975284ad2751" name="Changes" comment="exercise02 completed">
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio03.java" afterDir="false" />
+    <list default="true" id="f387c197-494d-4ff6-8ab6-975284ad2751" name="Changes" comment="exercise03 completed">
+      <change afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio04a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios/Marvel.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios/inputFileExercise01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios/inputFileExercise02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios/inputPDFExercise03.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios/outputFileExercise01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios/outputFileExercise02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +61,7 @@
     "Application.AD01Evaluativa01Ejercicio01.executor": "Run",
     "Application.AD01Evaluativa01Ejercicio02.executor": "Run",
     "Application.AD01Evaluativa01Ejercicio03.executor": "Run",
+    "Application.AD01Evaluativa01Ejercicio04a.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -80,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726927955760</updated>
-      <workItem from="1726927956762" duration="9889000" />
+      <workItem from="1726927956762" duration="14638000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -114,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726935865381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="exercise03 completed">
+      <option name="closed" value="true" />
+      <created>1726938119328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726938119328</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +152,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="exercise01 completed" />
     <MESSAGE value="exercise02 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise02 completed" />
+    <MESSAGE value="exercise03 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise03 completed" />
   </component>
 </project>

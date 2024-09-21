@@ -53,7 +53,7 @@ public class AD01Evaluativa01Ejercicio03 {
         } catch (IOException e) {
             System.out.println("Error de entrada/salida: " + e.getMessage());
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error inesperado: " + e.getMessage());
         }
     }
 }
