@@ -4,50 +4,42 @@ import java.io.*;
 import java.util.Arrays;
 
 /*
- * Programa para verificar si un archivo
- * es realmente un PDF
+ * Programa que lee la cabecera de un fichero PDF y verifica
+ * si realmente se trata de un archivo PDF válido.
  */
 public class AD01Evaluativa01Ejercicio03 {
     public static void main(String[] args) {
-
+        
         // Ruta del archivo de entrada
-        //String inputPathFile = "." + File.separator + "src" + File.separator + "ejercicios" + File.separator + "inputPDFExercise03.pdf";
-        String inputPathFile = "." + File.separator + "src" + File.separator + "ejercicios" + File.separator + "inputFileExercise01.txt"; // Ejemplo de PDF no válido
+        String inputPathFile = "." + File.separator + "src" + File.separator + "ejercicios" + File.separator + "inputPDFExercise03.pdf";
+        //String inputPathFile = "." + File.separator + "src" + File.separator + "ejercicios" + File.separator + "inputFileExercise01.txt"; // Ejemplo de PDF no válido
         File inputFile = new File(inputPathFile);
-
-        // Firma PDF esperada (primeros 4 bytes de un archivo PDF)
+        
+        // Firma PDF esperada
         byte[] pdfSignature = {37, 80, 68, 70};
-
+        
         // Bloque try-with-resources para asegurar el cierre del archivo
         try (InputStream inputStream = new FileInputStream(inputFile)) {
-            // Array para almacenar los primeros 4 bytes (cabecera) del archivo PDF
-            byte[] pdfHeader = new byte[4];
-
-            // Lee los primeros 4 bytes del archivo
-            int bytesRead = inputStream.read(pdfHeader);
-
-            // Verificar si se leyeron exactamente 4 bytes
+            // Array para almacenar la cabecera del fichero
+            byte[] inputPdfHeader = new byte[4];
+            
+            // Lectura la secuencia de bytes de la cabecera del fichero
+            int bytesRead = inputStream.read(inputPdfHeader);
+            
+            // Verificar si se leyeron la cantidad de elementos esperados
             if (bytesRead != 4) {
                 System.out.println("Error: No se puede leer el archivo");
                 return;
             }
-
-            /*
-            // Código opcional para imprimir la cabecera leída y verificar su contenido
-            for (byte b : pdfHeader) {
-                System.out.println(b);
-            }
-            */
-
-            // Comparar la cabecera leída con la firma PDF esperada
-            if (!Arrays.equals(pdfSignature, pdfHeader)) {
-                System.out.println("Error: No es un archivo PDF válido");
-                System.exit(-1);
+            
+            // Comprueba si el archivo PDF es válido
+            if (Arrays.equals(pdfSignature, inputPdfHeader)) {
+                System.out.println("El archivo es un PDF válido.");
             } else {
-                System.out.println("PDF file found");
+                System.out.println("El archivo no es un PDF válido.");
             }
-
-        // Manejo de excepciones
+            
+            // Manejo de excepciones
         } catch (FileNotFoundException e) {
             System.out.println("No se encontró el archivo: " + inputPathFile);
         } catch (IOException e) {
