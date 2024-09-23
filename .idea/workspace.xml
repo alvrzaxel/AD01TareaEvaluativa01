@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f387c197-494d-4ff6-8ab6-975284ad2751" name="Changes" comment="exercise04a completed">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio04b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio04c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/Consola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio04a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/AD01Evaluativa01Ejercicio04a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/Marvel.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/Marvel.dat" afterDir="false" />
-    </list>
+    <list default="true" id="f387c197-494d-4ff6-8ab6-975284ad2751" name="Changes" comment="exercise04b and exercise04c completed. Update comments from exercises 01, 02, 03 and add Consola" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726927955760</updated>
-      <workItem from="1726927956762" duration="63137000" />
+      <workItem from="1726927956762" duration="63496000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -144,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726943118783</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="exercise04b and exercise04c completed. Update comments from exercises 01, 02, 03 and add Consola">
+      <option name="closed" value="true" />
+      <created>1727112166368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727112166368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +164,7 @@
     <MESSAGE value="exercise02 completed" />
     <MESSAGE value="exercise03 completed" />
     <MESSAGE value="exercise04a completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise04a completed" />
+    <MESSAGE value="exercise04b and exercise04c completed. Update comments from exercises 01, 02, 03 and add Consola" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise04b and exercise04c completed. Update comments from exercises 01, 02, 03 and add Consola" />
   </component>
 </project>
